@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>HW1</title>
+</head>
+
+<body>
+
+<div>
+<h1>Bryan Benjamin</h1>
+    <p>Major: Computer Science</p>
+<img src="https://www.shutterstock.com/image-vector/cute-cartoon-african-boy-afro-600nw-2419989277.jpg" />
+<h2 class="Subtitle">Education</h2>
+<p>
+    A motivated Computer Science student at St. John’s University with a strong foundation in software development, problem-solving, and leadership. Passionate about leveraging technology to create innovative solutions. Experienced in teamwork, customer service, and mentorship, with a commitment to continuous learning and professional growth.
+</p>
+<ul>
+    <li>Computer Science (ST. JOHN’S UNIVERSITY GRAD. 2026)</li>
+</ul>
+</div>
+
+<div>
+<h2 class="Subtitle">Work Experience</h2>
+<ul>
+    <li> </li>
+</ul>
+</div>
+
+<div>
+    <h2 class="Subtitle">Skills</h2>
+    <ul>
+        <li>Programming Languages: Java, HTML, JavaScript, Python</li>
+        <li>Software & Tools: React, Tamagui, Git, VS Code, Microsoft Office (Word, Excel, PowerPoint), Google Suite, MySQL, Figma</li>
+    </ul>
+</div>
+
+<div>
+    <h2 class="Subtitle">Interests</h2>
+    <p>
+        Interested in UI/UX Design with intention to go into Product Design/Management
+    </p>
+</div>
+
+<div>
+    <h2 class="Subtitle">Favorite <span style="color: red;">Song</span>,
+        <span style="color: blue;">Film</span>,
+        <span style="color: darkgreen;">TV Show</span>
+    </h2>
+    <ul>
+        <li><span style="color: red;"><a href="https://open.spotify.com/album/1XqWXTFczDFTgnCWZSV242">Arc De Triomphe</a></span></li>
+        <li><span style="color: blue;"><a href="https://www.google.com/search?sca_esv=f2c259abd1bdf684&rlz=1C1JSBI_enUS1071US1071&sxsrf=ANbL-n49Cl_475ofZSEDKZvkIv6i0s5mOQ:1769747007811&si=AL3DRZGDMkmBg1SB5TH8o8Xeh03tgmwpgZCgiYi5BFB_ELNOTI8JTNEsd583sv3ceq8H7e5vXSUzoH4lgMtSUk9nTZ_rpcL6ssIAACV62VpaeIuFf8Rc8Kivz8kuOilGWW9dVlYL9MbLRRiZJRnaX8Iv8WS1GF1j3Htm9tA8I-3ZvdsZ_x2IW_qTOsyG1EvR-5VItfbKngYCPXpQS9012YhAPyNiKRHn2Q%3D%3D&q=Kill+Bill+2.&sa=X&ved=2ahUKEwjNvfittbKSAxWJkIkEHQYKAj8Qs9oBKAB6BAgPEAY&biw=1536&bih=791&dpr=2&aic=0">KIll Bill 2</a></span></li>
+        <li><span style="color: darkgreen;"><a href="https://www.google.com/search?gs_ssp=eJzj4tTP1TcwNLMsMTVg9BJPK0otzlAoKMrMS05VyE9TSErNUUjMLAIAwMALRw&q=fresh+prince+of+bel+air&rlz=1C1JSBI_enUS1071US1071&oq=fresh+&gs_lcrp=EgZjaHJvbWUqDwgCEC4YQxixAxiABBiKBTIGCAAQRRg5MhMIARAuGIMBGMcBGLEDGNEDGIAEMg8IAhAuGEMYsQMYgAQYigUyEAgDEC4YxwEYsQMY0QMYgAQyDQgEEAAYgwEYsQMYgAQyBggFEEUYPDIGCAYQRRg9MgYIBxBFGD3SAQgyMTEwajBqOagCBrACAfEFN_THplTjIMw&sourceid=chrome&ie=UTF-8">Fresh Prince of Bel Air</a></span></li>
+
+    </ul>
+</div>
+
+<div>
+    <h2 class="Subtitle">Favorite Website</h2>
+    <a href="https://pudding.cool">The Pudding</a>
+</div>
+<div>
+    <h2 class="Subtitle">My Projects</h2>
+</div>
+
+
+</body>
+</html>
