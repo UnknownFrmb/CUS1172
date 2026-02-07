@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bryan Benjamin</title>
+
+    <style>
+        .Subtitle { letter-spacing: 0.06em; text-transform: uppercase; }
+    </style>
+
+    <link rel="stylesheet" href="css/mycss_web.css" media="screen and (min-width: 768px)">
+    <link rel="stylesheet" href="css/mycss_tablet.css" media="screen and (max-width: 767px)">
+</head>
+
+<body>
+<header id="top" class="site-header">
+    <div class="container">
+        <div class="hero">
+            <div class="hero-text">
+                <h1>Bryan Benjamin</h1>
+                <p class="tagline">Major: Computer Science</p>
+                <nav class="quick-links" aria-label="Profile sections">
+                    <a href="#education">Education</a>
+                    <a href="#experience">Work Experience</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#favorites">Favorites</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </div>
+
+            <figure class="avatar">
+                <img
+                        src="https://www.shutterstock.com/image-vector/cute-cartoon-african-boy-afro-600nw-2419989277.jpg"
+                        alt="Avatar"
+                />
+                <figcaption class="muted">My Avatar</figcaption>
+            </figure>
+        </div>
+    </div>
+</header>
+
+<main class="container">
+    <section id="education" class="card section">
+        <h2 class="Subtitle">Education</h2>
+        <p>
+            A motivated Computer Science student at St. John’s University with a strong foundation in software development,
+            problem-solving, and leadership. Passionate about leveraging technology to create innovative solutions. Experienced
+            in teamwork, customer service, and mentorship, with a commitment to continuous learning and professional growth.
+        </p>
+        <ul>
+            <li><strong>Computer Science</strong> — St. John’s University (Grad. 2026)</li>
+        </ul>
+    </section>
+
+    <section id="experience" class="card section">
+        <h2 class="Subtitle">Work Experience</h2>
+        <ul>
+            <li>Alert U (Safety App Prototype)</li>
+            <li>Vehicular Cloud Real-Time System</li>
+            <li>Weather Forecast System</li>
+        </ul>
+        <p class="muted">
+        </p>
+    </section>
+
+    <section id="skills" class="card section">
+        <h2 class="Subtitle">Skills</h2>
+        <ul>
+            <li><span class="pill">Languages</span> Java, HTML, JavaScript, Python</li>
+            <li><span class="pill">Tools</span> React, Tamagui, Git, VS Code, Microsoft Office, Google Suite, MySQL, Figma</li>
+        </ul>
+    </section>
+
+    <section id="interests" class="card section">
+        <h2 class="Subtitle">Interests</h2>
+        <p>
+            Interested in UI/UX Design with intention to go into Product Design/Management.
+        </p>
+    </section>
+
+    <section id="favorites" class="card section">
+        <h2 class="Subtitle">
+            Favorite <span style="color: red;">Song</span>,
+            <span style="color: blue;">Film</span>,
+            <span style="color: darkgreen;">TV Show</span>
+        </h2>
+
+        <ul class="favorites">
+            <li class="favorite-item">
+                <span class="favorite-label" style="color: red;">Song:</span>
+                <a href="https://genius.com/J-cole-4-your-eyez-only-lyrics" target="_blank" rel="noopener noreferrer">
+                    4 Your Eyez Only
+                </a>
+                <div class="media">
+                    <video width="320" height="240" controls>
+                        <source src="videoplayback.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </li>
+
+            <li class="favorite-item">
+                <span class="favorite-label" style="color: blue;">Film:</span>
+                <a href="https://www.imdb.com/title/tt0446029/" target="_blank" rel="noopener noreferrer">
+                    Scott Pilgrim vs. the World
+                </a>
+                <div class="media">
+                    <video width="320" height="240" controls>
+                        <source src="videoplayback2.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </li>
+
+            <li class="favorite-item">
+                <span class="favorite-label" style="color: darkgreen;">TV:</span>
+                <a href="https://www.imdb.com/title/tt0098800/" target="_blank" rel="noopener noreferrer">
+                    Fresh Prince of Bel Air
+                </a>
+                <div class="media">
+                    <video width="320" height="240" controls>
+                        <source src="videoplayback3.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <section id="website" class="card section">
+        <h2 class="Subtitle">Favorite Website</h2>
+        <p>
+            <a href="https://pudding.cool" target="_blank" rel="noopener noreferrer">The Pudding</a>
+        </p>
+    </section>
+
+    <section id="projects" class="card section">
+        <h2 class="Subtitle">My Projects</h2>
+
+        <table class="projects-table">
+            <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Date</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><a href="https://unknownfrmb.github.io/CUS1172/" target="_blank" rel="noopener noreferrer">Project 1</a></td>
+                <td>01/29/26</td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="contact" class="card section">
+        <h2 class="Subtitle">Contact</h2>
+
+        <form id="contactForm" action="#" method="post">
+            <div class="field">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" placeholder="Your name" required>
+            </div>
+
+            <div class="field">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="you@example.com" required>
+            </div>
+
+            <div class="field">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" placeholder="Additional Details"></textarea>
+            </div>
+
+            <button type="submit" style="cursor: pointer;">Send</button>
+        </form>
+    </section>
+
+    <footer class="site-footer">
+        <p class="muted">
+            <a href="#top">Back to top</a>
+        </p>
+    </footer>
+</main>
+</body>
+</html>

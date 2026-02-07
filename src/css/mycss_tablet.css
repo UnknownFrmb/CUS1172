@@ -1,0 +1,172 @@
+
+:root{
+  --bg: #0a0f1a;
+  --card: rgba(255,255,255,0.04);
+  --text: #f3f4f6;
+  --muted: #b6bcc8;
+  --line: rgba(255,255,255,0.10);
+  --accent: #34d399;
+  --radius: 14px;
+  --max: 720px;
+}
+
+* { box-sizing: border-box; }
+
+body{
+  margin: 0;
+  background: black;
+  color: var(--text);
+  line-height: 1.55;
+}
+
+.container{
+  width: min(var(--max), calc(100% - 28px));
+  margin-inline: auto;
+}
+
+.site-header{
+  padding: 18px 0 12px;
+  border-bottom: 1px solid var(--line);
+}
+
+.hero{
+  display: grid;
+  gap: 12px;
+  align-items: center;
+}
+
+h1{
+  margin: 0;
+  font-size: 1.85rem;
+}
+
+.tagline{ margin: 6px 0 0; color: var(--muted); }
+
+.quick-links{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+a{
+  color: white;
+  padding: 6px 10px;
+  border: 1px solid rgba(255,255,255,0.12);
+}
+
+.avatar{
+  margin: 0;
+  display: grid;
+  justify-items: start;
+  gap: 6px;
+}
+
+img{
+  width: 108px;
+  height: 108px;
+  object-fit: cover;
+  border: 1px solid var(--line);
+}
+
+.muted{
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.card{
+  background: var(--card);
+  border: 1px solid var(--line);
+}
+
+.section{
+  padding: 14px 14px;
+  margin: 14px 0;
+}
+
+h2{
+  margin: 0 0 10px;
+  font-size: 1.0rem;
+}
+
+p{ margin: 0 0 10px; }
+
+ul{
+  margin: 8px 0 0;
+  padding-left: 18px;
+}
+
+li{ margin: 6px 0; }
+
+.pill{
+  display: inline-block;
+  padding: 2px 8px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(52,211,153,0.10);
+  color: var(--accent);
+  font-size: 0.82rem;
+  margin-right: 8px;
+}
+
+.favorites{
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  display: grid;
+  gap: 12px;
+}
+
+.favorite-item{
+  border: 1px dashed rgba(255,255,255,0.16);
+  padding: 10px;
+}
+
+.media{
+  margin-top: 10px;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.12);
+}
+
+video{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+th, td{
+  padding: 10px;
+  border-bottom: 1px solid rgba(255,255,255,0.10);
+}
+
+th{
+  background: darkslategray;
+}
+
+form{ display: grid; gap: 12px; }
+
+label{ color: var(--muted); }
+
+input, textarea{
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid darkgray;
+  background: antiquewhite;
+  color: var(--text);
+}
+
+button{
+  border: 1px solid darkseagreen;
+  background: darkseagreen;
+  color: var(--text);
+  padding: 10px 14px;
+}
+
+.quick-links a{ padding: 7px 12px; }
